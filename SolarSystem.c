@@ -42,9 +42,6 @@ GLdouble radius;
 GLint slices = 50;
 GLint stacks = 10;
 
-// star position
-GLfloat starX, starY, starZ;
-
 // current camera position
 GLfloat cameraPosition[] = { 0, 0, 5 };
 
@@ -122,7 +119,6 @@ void drawOrbits(GLfloat orbRadius) {
 	Description: Draws spheres for the planets.
 
 *********************************************************************/
-
 void drawPlanet1() {
 	q2 = gluNewQuadric();
 	radius = 0.06;
@@ -295,7 +291,7 @@ void drawSpaceship() {
 
 	Function: myDisplay
 
-	Description: 
+	Description: Display to screen.
 
 *********************************************************************/
 void myDisplay() {
@@ -540,7 +536,6 @@ void mySpecialKeyboardReleased(unsigned char key, int x, int y) {
 	Description:	Updates the animation when idle.
 
 *************************************************************************/
-
 void myIdle()
 {
 	// update rotation
