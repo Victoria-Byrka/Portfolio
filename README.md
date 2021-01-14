@@ -11,3 +11,6 @@ Operating System Projects written in C:
 
 Android Studio Projects:
 * MoneyManager (in Kotlin)
+
+Visual Studio Projects using OpenGL in C:
+* SolarSystem
